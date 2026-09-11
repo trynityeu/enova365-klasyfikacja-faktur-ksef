@@ -1,6 +1,6 @@
 # Automatyczna klasyfikacja faktur KSeF przed importem (enova365)
 
-> Element większej całości: **[Obieg faktur zakupu z KSeF w enova365 — mapa rozwiązania](../../trynityeu/enova365-obieg-faktur-ksef)**
+> Element większej całości: **[Obieg faktur zakupu z KSeF w enova365 — mapa rozwiązania](https://github.com/trynityeu/enova365-obieg-faktur-ksef)**
 
 Zestaw **cech algorytmicznych** w systemie ERP **enova365** (Soneta
 sp. z o.o.), które nadają każdej fakturze pobranej z **Krajowego Systemu
@@ -17,8 +17,8 @@ cech, bez danych klienta, bez konfiguracji wdrożeniowej.
 
 Odbiorcy tej klasyfikacji:
 
-- [Import faktur zakupu materiałowego (ZME) z dopasowaniem do zamówień](../../trynityeu/enova365-import-faktur-ksef-dopasowanie)
-- [Import faktur kosztowych (ZKE) i samochodowych (ZSE)](../../trynityeu/enova365-import-faktur-ksef-koszty-pojazdy)
+- [Import faktur zakupu materiałowego (ZME) z dopasowaniem do zamówień](https://github.com/trynityeu/enova365-import-faktur-ksef-dopasowanie)
+- [Import faktur kosztowych (ZKE) i samochodowych (ZSE)](https://github.com/trynityeu/enova365-import-faktur-ksef-koszty-pojazdy)
 
 ## Problem, który rozwiązuje
 
@@ -122,11 +122,11 @@ klasyfikacją, a staje się faktem księgowym.
 
 - Faktury rodzaju **materiałowego** importuje dodatek dopasowujący je do
   zamówień zakupu i budujący opis analityczny wg podziału na projekty.
-  → [Import faktur zakupu materiałowego (ZME) z dopasowaniem do zamówień](../../trynityeu/enova365-import-faktur-ksef-dopasowanie)
+  → [Import faktur zakupu materiałowego (ZME) z dopasowaniem do zamówień](https://github.com/trynityeu/enova365-import-faktur-ksef-dopasowanie)
 - Faktury **kosztowe i samochodowe** importuje dodatek rozpoznający
   dodatkowo wariant faktury (zwykła, korekta, zaliczkowa, rozliczeniowa)
   i budujący dekretację z karty kontrahenta.
-  → [Import faktur kosztowych (ZKE) i samochodowych (ZSE)](../../trynityeu/enova365-import-faktur-ksef-koszty-pojazdy)
+  → [Import faktur kosztowych (ZKE) i samochodowych (ZSE)](https://github.com/trynityeu/enova365-import-faktur-ksef-koszty-pojazdy)
 - Oba dodatki **pomijają pliki cudzego rodzaju** zamiast je przetwarzać —
   błąd klasyfikacji kończy się czytelnym komunikatem, nie dokumentem
   zaksięgowanym według niewłaściwych reguł.
